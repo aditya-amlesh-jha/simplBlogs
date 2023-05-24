@@ -21,15 +21,7 @@ mongoose.connect(uri, options).then(() => {
   console.log('Error connecting to MongoDB', err);
 });
 
-// const blogPost = {
-//   title: "My First Blog Post",
-//   author: "Bard",
-//   body: "This is my first blog post!",
-// };
 
-// BlogPost.create(blogPost).then((blog) => {
-//   console.log(`Blog post created successfully: ${blog}`);
-// });
 
 app.use(bodyParser.json());
 
