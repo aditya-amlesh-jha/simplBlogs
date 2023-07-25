@@ -22,6 +22,8 @@ Blog Operations: Explore the functionality to Add, Remove, Update, and View blog
 
 ![Screenshot (79)](https://github.com/aditya-amlesh-jha/simplBlogs/assets/86921165/c1335505-39fc-4b91-a404-1027ba707559)
 
+![Screenshot (72)](https://github.com/aditya-amlesh-jha/simplBlogs/assets/86921165/035270e5-d127-4f1f-89de-4894de6fed2e)
+
 
 Search: Seamlessly find blogs using specific keywords in their titles, making it effortless to discover content that interests you.
 
