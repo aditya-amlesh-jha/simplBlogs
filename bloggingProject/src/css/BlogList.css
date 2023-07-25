@@ -1,0 +1,26 @@
+.main-blog-class{
+    /* glosst effect and drop shadow when hovered */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.1);
+    transition: 0.3s;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.main-blog-class:hover{
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    transition: 0.3s;
+    
+}
+
+.main-blog-search{
+    background-color: rgba(0,0,0,0.2);
+}
+
+/* image-property */
+.image-property{
+        /* Set the desired height */
+        height: 300px; 
+        object-fit: cover;
+        overflow: hidden;
+}

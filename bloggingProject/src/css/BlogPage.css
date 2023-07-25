@@ -1,0 +1,27 @@
+.blog-details{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.1);
+    transition: 0.3s;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    
+}
+
+.blog-title{
+    background-color: rgba(0,0,0,0.2);
+    /* make everything uppercase */
+    text-transform: uppercase;
+    /* text alignment evenly spaced */
+    
+}
+
+.blog-content{
+    /* little transparent white */
+    background-color: rgba(255,255,255,1);
+    text-align: justify;
+}
+
+.blog-title h1 {
+    /* if title is long then distribute to multiple lines */
+    word-wrap: break-word;
+}

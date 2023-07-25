@@ -1,0 +1,13 @@
+a {
+    text-decoration: none;
+}
+.login-page {
+    width: 100%;
+    /* set height to whatever is left */
+    height: calc(100vh - 56px);
+    display: flex;
+    align-items: center;
+}
+.form-right i {
+    font-size: 100px;
+}

@@ -1,0 +1,34 @@
+.addblog-body {
+    /* should only occupy 80% of width when max screen else 90 on medium else 100 on small */
+
+    @media screen and (max-width: 768px) {
+        width: 100%;
+    }
+    @media screen and (max-width: 992px) {
+        width: 90%;   
+    }
+    @media screen and (min-width: 992px) {
+        width: 80%;
+    }
+  
+    margin-top:5%;
+    margin-bottom: 5%;
+    padding: 2%;    
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #F5F5F5;
+    
+}
+.addblog-page{    
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.ck-editor__editable_inline {
+    min-height: 500px;
+    max-height: 500px;
+ }
