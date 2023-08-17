@@ -37,19 +37,6 @@ mongoose.connect(dburl,connectionParams)
     console.log(err);
 })
 
-
-app.get("/",(req,res)=>{
-    const blogs = [
-        {title: 'My new website', body: 'lorem ipsum...', author: 'mario', id: 1},
-        {title: 'Welcome party!', body: 'lorem ipsum...', author: 'yoshi', id: 2},
-        {title: 'Web dev top tips', body: 'lorem ipsum...', author: 'mario', id: 3}
-    ];
-
-    data = JSON.stringify(blogs);
-
-    res.send(data);
-})
-
 app.use(authRoutes);
 app.use(blogRoutes);
 app.use(otpRoutes);
